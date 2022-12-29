@@ -2,13 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project Status
+## Project Progress
 - [x] create react app with typescript template 
 - [x] update code structure 
-- [ ] a simply component 
+- [x] a simply component 
 - [ ] setup react routes
-- [ ]  
+- [ ] 
 
+## Completed Features
+- [] search by id or name
+- 
 
 ## Available Scripts
 
