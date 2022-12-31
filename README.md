@@ -8,7 +8,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [x] a simply component 
 - [x] setup react routes
 - [x] api/axios
-- [x] 
+- [x] redux/store
+- [x] search & search history
+- [x] search result - currentPokemon
+- [ ] pokemon details
+- [ ] pokemon grid 
 
 ## Completed Features
 - [] search by id or name

@@ -1,14 +1,19 @@
 import React from 'react';
 import SearchBar from "../components/pokemon/SearchBar";
-import { CurrentPokemon} from "../components/pokemon/CurrentPokemon";
-const landingPage = () => {
+import CurrentPokemon from "../components/pokemon/CurrentPokemon";
+import "./styles.css";
+
+const LandingPage: React.FC = () => {
   return (
-    <div>
-      Welcome to PokeDex
+    <div className="pokemon-search-container">
+      <div className="search-title">
+        <h1>Pokedex</h1>
+      </div>
       <SearchBar />
-      <CurrentPokemon />
+      <div className="search-result">
+        <CurrentPokemon />
+      </div>
     </div>
   );
 };
-
-export default landingPage;
+export default LandingPage;

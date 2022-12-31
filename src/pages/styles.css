@@ -1,0 +1,16 @@
+.search-title{
+  align-items: center;
+  margin-top: 20px;
+  color: darkgreen
+}
+.search-result{
+  margin: 10px 0;
+}
+
+hr.solid{
+border-top: 8px solid #bbb;
+}
+
+.single-pokemon{
+  border: 0px solid;
+}

@@ -1,12 +1,19 @@
 import React, { useState } from "react";
 import { fetchPokemonService } from "../../../api/index";
+import { useDispatch, useSelector } from "react-redux";
 import type { IFetchPokemonResponse } from "../../../api/index";
+import { addPokemon } from "../../../store/slices/pokemons";
+import { addSearchHistory } from "../../../store/slices/searchHistory";
+import { selectPokemon } from "../../../store/slices/currentPokemon";
+
+import type { RootState } from "../../../store/types";
 
 import "../../styles.css";
 
 export default function SearchBar() {
   const [searchText, setSearchText] = useState<string>("");
-  let searchHistory = ["a", "b"]
+  const searchHistory: string[] = useSelector((state: RootState) => state.searchHistory);
+  const dispatch = useDispatch();
 
   const onSearch = async (
     e: React.MouseEvent<HTMLButtonElement, MouseEvent>
@@ -15,6 +22,9 @@ export default function SearchBar() {
     const response: IFetchPokemonResponse = await fetchPokemonService(searchText);
     if (response) {
       console.log(response)
+      dispatch(addPokemon(response));
+      dispatch(addSearchHistory(searchText));
+      dispatch(selectPokemon(response));
     }
     else {
       alert("No pokemon found!");

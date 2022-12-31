@@ -16,7 +16,7 @@ export type Pokemon = {
   abilities: any[];
 }
 
-export type IFetchPokemonResponse = Pokemon | null
+export type IFetchPokemonResponse = Pokemon | {}
 export const fetchPokemonService = async (searchText: string): Promise<any> => {
   const url = `/pokemon/${searchText}`;
   try {
