@@ -15,7 +15,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [ ] pokemon grid 
 
 ## Completed Features
-- [] search by id or name
+- [x] search by id or name
+- [x] show the search result - currentPokemon card
+- [x] show the search-text history in a dropdown list
+- [ ] show all the previous search results in a grid view
 - 
 
 ## Available Scripts
