@@ -6,8 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [x] create react app with typescript template 
 - [x] update code structure 
 - [x] a simply component 
-- [ ] setup react routes
-- [ ] 
+- [x] setup react routes
+- [x] api/axios
+- [x] 
 
 ## Completed Features
 - [] search by id or name
