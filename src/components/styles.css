@@ -58,7 +58,7 @@
 
 .profile-row__attribute {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-items: stretch;
   width: 100%;
   margin-top: 10px;
@@ -82,4 +82,42 @@ ol,
 ul {
   list-style: none;
   padding-inline-start: 0px;
+}
+
+.pokemon-grid{
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  /* border: 2px solid red; */
+}
+
+.pokemon-grid__title{
+  margin: 5px 0;
+  color: darkgreen;
+}
+
+.pokemon-grid__pokemon-grid{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border: 2px solid blueviolet; */
+}
+.pokemon-grid__image{
+  margin: 10px 5px;
+  padding: 5px;
+  border: 8px solid darkgreen;
+  border-radius: 30px;
+  position: relative;
+}
+
+.pokemon-preview__caption{
+  font-size: 15px;
+  color: gray;
+  width: 100%;
+  position: relative;
+}
+.pokemon-preview__title{
+  color: darkgreen;
 }
