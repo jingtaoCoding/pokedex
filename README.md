@@ -7,7 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [x] show the search result - currentPokemon card
 - [x] show the search-text history in a dropdown list
 - [x] show the past search results in a grid view
-- 
+- [x] show pokemon detail page
+- [ ] show evolutions in pokemon detail page
 
 ## Project Progress
 - [x] create react app with typescript template 
@@ -20,7 +21,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [x] search result - currentPokemon
 - [x] pokemon grid-view for past search result 
 - [x] mock-data for pokemons
-- [ ] pokemon details
+- [x] pokemon details - profile, attributes
+- [ ] pokemon details - evolutions
 - [ ] tests 
 
 

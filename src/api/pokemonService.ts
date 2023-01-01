@@ -14,7 +14,8 @@ export type Pokemon = {
   weight: number;
   height: number;
   sprites: { back_default: string, other: { dream_world: { front_default: string } } };
-  abilities: any[];
+  abilities: {ability:{name: string}}[];
+  types: {type: {name: string}}[];
 }
 
 export type IFetchPokemonResponse = Pokemon | {}
@@ -22,8 +23,8 @@ export const fetchPokemonService = async (searchText: string): Promise<any> => {
   const url = `/pokemon/${searchText}`;
   try {
     if (searchText) {
-      // const response = await pokemonApi.get(url);
-      const response = mock();
+      const response = await pokemonApi.get(url);
+      // const response = mock();
       return response.data;
     }
   } catch (e) {
