@@ -11,14 +11,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [x] redux/store
 - [x] search & search history
 - [x] search result - currentPokemon
+- [x] pokemon grid-view for past search result 
 - [ ] pokemon details
-- [ ] pokemon grid 
+
 
 ## Completed Features
 - [x] search by id or name
 - [x] show the search result - currentPokemon card
 - [x] show the search-text history in a dropdown list
-- [ ] show all the previous search results in a grid view
+- [x] show the past search results in a grid view
 - 
 
 ## Available Scripts
