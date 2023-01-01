@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Completed Features
+- [x] search by id or name
+- [x] show the search result - currentPokemon card
+- [x] show the search-text history in a dropdown list
+- [x] show the past search results in a grid view
+- 
+
 ## Project Progress
 - [x] create react app with typescript template 
 - [x] update code structure 
@@ -12,15 +19,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [x] search & search history
 - [x] search result - currentPokemon
 - [x] pokemon grid-view for past search result 
+- [x] mock-data for pokemons
 - [ ] pokemon details
+- [ ] tests 
 
-
-## Completed Features
-- [x] search by id or name
-- [x] show the search result - currentPokemon card
-- [x] show the search-text history in a dropdown list
-- [x] show the past search results in a grid view
-- 
 
 ## Available Scripts
 

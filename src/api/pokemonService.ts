@@ -1,4 +1,5 @@
 import axios from "axios";
+import { mock } from "./mockdata/pokemons";
 
 export type IPokemonApiService = ReturnType<typeof pokemonApi>
 export const pokemonApi = axios.create({
@@ -21,7 +22,8 @@ export const fetchPokemonService = async (searchText: string): Promise<any> => {
   const url = `/pokemon/${searchText}`;
   try {
     if (searchText) {
-      const response = await pokemonApi.get(url);
+      // const response = await pokemonApi.get(url);
+      const response = mock();
       return response.data;
     }
   } catch (e) {
