@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Pokemon Search React App
 
 This app is created to search a pokemon by id or name, and the search keyword (id or name) history and result history is also shown.
 
