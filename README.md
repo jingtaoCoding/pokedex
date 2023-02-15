@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Pokemon Search React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app is created to search a pokemon by id or name, and the search keyword (id or name) history and result history is also shown.
+
+![pokedex landing-page](/src/assets/image.png)
 
 ## Completed Features
 - [x] search by id or name
@@ -27,6 +29,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Available Scripts
+
+NOTE: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 In the project directory, you can run:
 
