@@ -1,5 +1,5 @@
 import axios from "axios";
-import { mock } from "./mockdata/pokemons";
+// import { mock } from "./mockdata/pokemons";
 
 export type IPokemonApiService = ReturnType<typeof pokemonApi>
 export const pokemonApi = axios.create({
